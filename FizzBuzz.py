@@ -1,5 +1,5 @@
 class FizzBuzz:
-    def affiche ():
+    def affiche (self, n):
 
         for i in range(1, 101):
             output = ""
@@ -13,7 +13,10 @@ class FizzBuzz:
                 output = str(i)
 
             print(output)
-    affiche()
+
+FB = FizzBuzz()
+
+FB.affiche()
 
 
 
