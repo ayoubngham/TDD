@@ -16,7 +16,7 @@ class FizzBuzz:
 
 FB = FizzBuzz()
 
-FB.affiche()
+FB.affiche(55)
 
 
 
