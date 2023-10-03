@@ -1,7 +1,7 @@
 class FizzBuzz:
-    def affiche (self, n):
+    def affiche (self, n1,n2):
 
-        for i in range(1, n + 1):
+        for i in range(n1, n2 + 1):
             output = ""
             if i % 3 == 0 and i % 5 == 0:
                 output ="FrisBee"
@@ -16,7 +16,7 @@ class FizzBuzz:
 
 FB = FizzBuzz()
 
-FB.affiche(55)
+FB.affiche(55,70)
 
 
 
